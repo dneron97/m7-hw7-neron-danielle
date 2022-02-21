@@ -146,7 +146,7 @@ span.tooltip {
 /* underline span on hover/focus */
 span.tooltip:hover,
 span.tooltip:focus {
-  text-decoration: underline;
+  text-decoration: dotted;
 }
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
@@ -155,10 +155,9 @@ span.tooltip:focus > span {
 }
 
 /* styling for tooltip bubble */
-span.tooltip span {
+span.tooltip span ::before{
 display: inline-block;
 }
-
 
 /* styling for tooltip bubble arrow */
 span.tooltip span::after {

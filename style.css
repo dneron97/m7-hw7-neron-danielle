@@ -113,6 +113,9 @@ p :first-child:first-letter {
   color: navy;
   font-size: 80px;
   padding-right: 8px;
+
+  float: left;
+  line-height: 0.7;
 }
 
 main > article img {

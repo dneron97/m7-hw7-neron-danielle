@@ -156,11 +156,10 @@ span.tooltip:focus > span {
 
 /* styling for tooltip bubble */
 span.tooltip span {
-position: relative;
-display: inline-block;
+display: none;
 }
 
-/* tooltip text */
-.tooltip .tooltip text {
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+/* styling for tooltip bubble arrow */
+span.tooltip span::after {
+  content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"
 }

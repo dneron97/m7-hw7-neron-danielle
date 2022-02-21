@@ -156,7 +156,7 @@ span.tooltip:focus > span {
 
 /* styling for tooltip bubble */
 span.tooltip span {
-display: none;
+display: contents;
 }
 
 

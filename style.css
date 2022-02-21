@@ -157,9 +157,5 @@ span.tooltip:focus > span {
 /* styling for tooltip bubble */
 span.tooltip span {
 position: relative;
-display: none
+display: 
 
-/* styling for tooltip bubble arrow */
-span.tooltip span:after {
-  content: 
-}

@@ -157,10 +157,10 @@ span.tooltip:focus > span {
 /* styling for tooltip bubble */
 span.tooltip span {
 position: relative;
-display: inline-block;
-}
+display: none
 
 /* styling for tooltip bubble arrow */
 span.tooltip span:after {
-  content: "";
+  content: 
 }
+

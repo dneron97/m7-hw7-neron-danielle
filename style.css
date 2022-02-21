@@ -159,6 +159,7 @@ span.tooltip span {
 display: none;
 }
 
+
 /* styling for tooltip bubble arrow */
 span.tooltip span::after {
   content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"

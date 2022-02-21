@@ -157,4 +157,10 @@ span.tooltip:focus > span {
 /* styling for tooltip bubble */
 span.tooltip span {
 position: relative;
-display: 
+display: inline-block;
+}
+
+/* tooltip text */
+.tooltip .tooltip text {
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+}

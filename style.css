@@ -109,7 +109,7 @@ main p {
   margin-bottom: 48px;;
 }
 
-main p:first-child:first-letter {
+main article p:first-child:first-letter {
   color: navy;
   font-size: 80px;
   padding-right: 8px;

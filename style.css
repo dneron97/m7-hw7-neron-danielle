@@ -161,5 +161,5 @@ span.tooltip span {
 
 /* styling for tooltip bubble arrow */
 span.tooltip span::after {
-  content: "";
+  content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit";
 }

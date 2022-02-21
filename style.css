@@ -151,11 +151,10 @@ span.tooltip:focus {
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
 span.tooltip:focus > span {
-  display: inline;
+  display: inline
 }
 
 /* styling for tooltip bubble */
 span.tooltip span {
 position: relative;
 display: 
-

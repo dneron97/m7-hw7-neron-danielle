@@ -151,7 +151,8 @@ span.tooltip:focus {
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
 span.tooltip:focus > span {
-  display: none;
+  display: block;
+  
 }
 
 /* styling for tooltip bubble */

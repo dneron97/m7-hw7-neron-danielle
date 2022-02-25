@@ -141,7 +141,7 @@ span.tooltip {
   color: var(--danger-color);
   position: relative;
   cursor: pointer;
-  display: ;
+  display: inline-block
 }
 
 /* underline span on hover/focus */
@@ -152,7 +152,7 @@ span.tooltip:focus {
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
 span.tooltip:focus > span {
-  display: inline-block
+  display: block
 }
 
 /* styling for tooltip bubble */

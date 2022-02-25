@@ -137,33 +137,5 @@ footer {
 
 /* tooltip code below */
 
-span.tooltip {
-  color: var(--danger-color);
-  position: relative;
-  cursor: pointer;
-  display: block
-}
 
-/* underline span on hover/focus */
-span.tooltip:hover,
-span.tooltip:focus {
-  text-decoration: underline;
-}
-/* show tooltip on hover/focus */
-span.tooltip:hover > span,
-span.tooltip:focus > span {
-  display: block
-}
-
-/* styling for tooltip bubble */
-span.tooltip span ::before{
-display: block;
-}
-
-/* styling for tooltip bubble arrow */
-span.tooltip span::after {
-  content: " ";
-  display: block;
-  position: absolute;
-}
 

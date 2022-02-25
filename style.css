@@ -157,7 +157,7 @@ span.tooltip:focus > span {
 
 /* styling for tooltip bubble */
 span.tooltip span ::before{
-display: inline-block;
+display: block;
 }
 
 /* styling for tooltip bubble arrow */

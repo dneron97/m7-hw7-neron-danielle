@@ -152,7 +152,7 @@ span.tooltip:focus {
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
 span.tooltip:focus > span {
-  display: inline
+  display: none
 }
 
 /* styling for tooltip bubble */

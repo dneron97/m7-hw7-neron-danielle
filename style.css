@@ -137,8 +137,6 @@ footer {
 
 /* tooltip code below */
 
-<style>
-/* Tooltip container */
 .tooltip {
   position: relative;
   display: inline-block;
@@ -164,8 +162,3 @@ footer {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-</style>
-
-<div class="tooltip">Hover over me
-  <span class="tooltiptext">Tooltip text</span>
-</div>

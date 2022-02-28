@@ -149,12 +149,14 @@ span.tooltip:hover,
 span.tooltip:focus {
   text-decoration: underline;
   visibility: hidden;
+  position: absolute;
 }
+
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
 span.tooltip:focus > span {
   display: block;
-  
+  visibility: visible;
 }
 
 /* styling for tooltip bubble */

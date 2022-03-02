@@ -155,7 +155,12 @@ span.tooltip:focus {
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
 span.tooltip:focus > span {
-  display: block;
+  display: inline;
+  position: absolute;
+  background: black;
+  left: 0;
+  top: -95px;
+  padding: 10px;
 }
 
 /* styling for tooltip bubble */
@@ -165,6 +170,13 @@ display: block
 
 /* styling for tooltip bubble arrow */
 span.tooltip span::after {
-  content: " "
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
 
